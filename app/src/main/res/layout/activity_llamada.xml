@@ -6,7 +6,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LlamadaActivity">
+    tools:context=".LlamadaActivity"
+    android:background="@color/beige_background">
 
 
     <ImageView
@@ -24,6 +25,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/txt_name"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
         />
 
     <TextView
@@ -32,6 +36,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/txt_phone"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="280dp"
         />
 
 

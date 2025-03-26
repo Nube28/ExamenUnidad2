@@ -6,14 +6,18 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AddContactActivity">
+    tools:context=".AddContactActivity"
+    android:background="@color/beige_background"
+    >
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/txt_new_contact"
-        android:textSize="16sp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="42sp"/>
 
     <LinearLayout
         android:orientation="vertical"
@@ -27,6 +31,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_name"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <EditText
@@ -41,6 +46,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_last_name"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <EditText
@@ -55,6 +61,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_phone"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <EditText
@@ -69,6 +76,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_email"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <EditText
@@ -83,6 +91,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_company"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <EditText
@@ -97,6 +106,7 @@
             android:layout_height="wrap_content"
             android:text="@string/txt_color"
             android:textSize="16sp"
+            android:textColor="@color/black"
             android:layout_marginBottom="8dp"/>
 
         <Spinner
