@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/contact_iv_overview"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/ic_profile"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/contact_tv_name_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/contact_tv_company_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_company"
+            android:textSize="10sp"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_delete_contact"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_trash"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
